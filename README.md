@@ -50,15 +50,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * ES6
 * Karma
 
-## Contributing
-
-1. Clone this repository.
-1. Make a new branch.
-1. Commit and push your changes.
-1. Create a Pull Request.
-
-## Author
-
 * **Braian Silva** - [Twitter](https://twitter.com/braiancode) - [Gmail](mailto:braiannogueirasilva@gmail.com)
 
 ## License
