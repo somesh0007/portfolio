@@ -1,0 +1,129 @@
+[
+    {
+        "title": "MangasTech",
+        "paragraph": "Projeto para organizar mangas e ler seus mangas preferidos",
+        "tools": [
+            {
+                "title": "Spring Boot"
+            },
+            {
+                "title": "AngularJS"
+            },
+            {
+                "title": "MySql"
+            },
+            {
+                "title": "BootStrap"
+            }
+        ],
+        "img": "./assets/img/mangasTech.webp",
+        "github": "https://github.com/BraianS/MangasTech"
+    },
+    {
+        "title": "Ang Rss Reader",
+        "paragraph": "Simples Rss Reader criado com Angular 8",
+        "tools": [
+            {
+                "title": "Angular 8"
+            },
+            {
+                "title": "Bulma"
+            },
+            {
+                "title": "Font Awesome 5"
+            },
+            {
+                "title": "SCSS"
+            }
+        ],
+        "img": "./assets/img/ang-rss-reader.png",
+        "github": "https://github.com/BraianS/ang-rss-reader"
+    },
+    {
+        "title": "KanbanSpring",
+        "paragraph": "Full Stack Kanban App to create your account and organize your cards.",
+        "tools": [
+            {
+                "title": "Angular 9"
+            },
+            {
+                "title": "Angular Material"
+            },
+            {
+                "title": "MongoDB"
+            },
+            {
+                "title": "SCSS"
+            },
+            {
+                "title": "Spring Boot"
+            },
+            {
+                "title": "Spring Security"
+            },
+            {
+                "title": "JWT"
+            }
+        ],
+        "img": "./assets/img/kanbanSpring.webp",
+        "github": "https://github.com/BraianS/spring-security-angular-kanban-app"
+    },
+    {
+        "title":"Full Stack Spring Blog and Angular Blog",
+        "paragraph":"Build your own Blog with Spring Boot and Angular project",
+        "tools": [
+            {
+                "title":"Spring Boot 2.5.2"
+            },
+            {
+                "title":"Mysql"
+            },
+            {
+                "title":"jjwt"
+            },
+            {
+                "title":"Angular 12"
+            },
+            {
+                "title":"Bulma"
+            },
+            {
+                "title":"Font-Awesome Free"
+            },
+            {
+                "title":"Docker"
+            }
+        ],
+        "img":"./assets/img/full-stack-spring-blog-and-angular-blog.jpg",
+        "github": "https://github.com/BraianS/fullstack-spring-boot-and-angular"
+    },
+    {
+        "title":"Goalbit Android",
+        "paragraph":"Habit tracker app created on Android",
+        "tools": [
+            {
+                "title":"Kotlin"
+            },
+            {
+                "title":"Android Studio"
+            },
+            {
+                "title":"Java 17 version"
+            },
+            {
+                "title":"Firebase"
+            },
+            {
+                "title":"Mpchart"
+            },
+            {
+                "title":"Material Design Components"
+            },
+            {
+                "title":"IconPack"
+            }
+        ],
+        "img":"./assets/img/goalbit-android.jpg",
+        "github": "https://github.com/BraianS/goalbit-android"
+    }
+]
