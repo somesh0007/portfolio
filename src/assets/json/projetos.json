@@ -1,129 +1,49 @@
 [
     {
-        "title": "MangasTech",
-        "paragraph": "Projeto para organizar mangas e ler seus mangas preferidos",
+        "title": "To Do list",
+        "paragraph": "To do list it has 2 version one with basic crud and another with crud functionality and saving data in local storage",
         "tools": [
             {
-                "title": "Spring Boot"
-            },
-            {
-                "title": "AngularJS"
-            },
-            {
-                "title": "MySql"
-            },
-            {
-                "title": "BootStrap"
-            }
-        ],
-        "img": "./assets/img/mangasTech.webp",
-        "github": "https://github.com/BraianS/MangasTech"
-    },
-    {
-        "title": "Ang Rss Reader",
-        "paragraph": "Simples Rss Reader criado com Angular 8",
-        "tools": [
-            {
-                "title": "Angular 8"
-            },
-            {
-                "title": "Bulma"
-            },
-            {
-                "title": "Font Awesome 5"
-            },
-            {
-                "title": "SCSS"
-            }
-        ],
-        "img": "./assets/img/ang-rss-reader.png",
-        "github": "https://github.com/BraianS/ang-rss-reader"
-    },
-    {
-        "title": "KanbanSpring",
-        "paragraph": "Full Stack Kanban App to create your account and organize your cards.",
-        "tools": [
-            {
-                "title": "Angular 9"
-            },
-            {
-                "title": "Angular Material"
-            },
-            {
-                "title": "MongoDB"
+                "title": "Angular 15"
             },
             {
                 "title": "SCSS"
             },
             {
-                "title": "Spring Boot"
-            },
-            {
-                "title": "Spring Security"
-            },
-            {
-                "title": "JWT"
+                "title": "Prime Ng"
             }
         ],
-        "img": "./assets/img/kanbanSpring.webp",
-        "github": "https://github.com/BraianS/spring-security-angular-kanban-app"
+        "img": "./assets/img/todoapp.png",
+        "github": "https://github.com/somesh0007/todo"
     },
     {
-        "title":"Full Stack Spring Blog and Angular Blog",
-        "paragraph":"Build your own Blog with Spring Boot and Angular project",
+        "title":"Airport Taxi Cab Service",
+        "paragraph":"My role in this website is to design the user interface (UI) using WordPress and ensure seamless functionality for all elements.",
         "tools": [
             {
-                "title":"Spring Boot 2.5.2"
+                "title":"Wordpress"
             },
             {
-                "title":"Mysql"
-            },
-            {
-                "title":"jjwt"
-            },
-            {
-                "title":"Angular 12"
-            },
-            {
-                "title":"Bulma"
-            },
-            {
-                "title":"Font-Awesome Free"
-            },
-            {
-                "title":"Docker"
+                "title":"Elemontor"
             }
         ],
-        "img":"./assets/img/full-stack-spring-blog-and-angular-blog.jpg",
-        "github": "https://github.com/BraianS/fullstack-spring-boot-and-angular"
+        "img":"./assets/img/goalbit-android_1.jpg",
+        "github": "https://famousdrive.com/",
+        "link": "yes"
     },
     {
-        "title":"Goalbit Android",
-        "paragraph":"Habit tracker app created on Android",
+        "title":"Airport Taxi Cab Service",
+        "paragraph":"My role in this website is to design the user interface (UI) using WordPress and ensure seamless functionality for all elements.",
         "tools": [
             {
-                "title":"Kotlin"
+                "title":"Wordpress"
             },
             {
-                "title":"Android Studio"
-            },
-            {
-                "title":"Java 17 version"
-            },
-            {
-                "title":"Firebase"
-            },
-            {
-                "title":"Mpchart"
-            },
-            {
-                "title":"Material Design Components"
-            },
-            {
-                "title":"IconPack"
+                "title":"Elemontor"
             }
         ],
         "img":"./assets/img/goalbit-android.jpg",
-        "github": "https://github.com/BraianS/goalbit-android"
+        "github": "https://airporttaxicabneedham.com/",
+        "link": "yes"
     }
 ]

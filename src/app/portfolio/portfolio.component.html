@@ -13,8 +13,11 @@
           <ul class="list">
             <li class="list__item" *ngFor="let tools of portfolio.tools"><span class="list__tag">{{tools.title}}</span></li>
           </ul>
-         <div class="overlay__icon">
+         <div class="overlay__icon" *ngIf="portfolio.link !== 'yes'">
           <a class="fab fa-github fa-4x" href="{{portfolio.github}}"></a>
+         </div>
+         <div class="overlay__icon" *ngIf="portfolio.link === 'yes'">
+          <a class="fa fa-eye fa-4x" href="{{portfolio.github}}"></a>
          </div>
         </div>
       </figure>
