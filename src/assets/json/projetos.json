@@ -45,5 +45,29 @@
         "img":"./assets/img/goalbit-android.jpg",
         "github": "https://airporttaxicabneedham.com/",
         "link": "yes"
+    },
+    {
+        "title": "CryptoCurrency Price Checker",
+        "paragraph": "In this we can check the Crypto Currency live prices fetching from coingecko api.",
+        "tools": [
+            {
+                "title": "Angular 15"
+            },
+            {
+                "title": "Material UI"
+            },
+            {
+                "title": "SCSS"
+            },
+            {
+                "title": "ngx-graph"
+            },
+            {
+                "title": "Bootstrap"
+            }
+        ],
+        "img": "./assets/img/crypto.jpg",
+        "github": "https://bitcoin-price-check.netlify.app/coin-list",
+        "link": "yes"
     }
 ]
