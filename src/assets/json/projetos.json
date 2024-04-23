@@ -1,0 +1,73 @@
+[
+    {
+        "title": "To Do list",
+        "paragraph": "To do list it has 2 version one with basic crud and another with crud functionality and saving data in local storage",
+        "tools": [
+            {
+                "title": "Angular 15"
+            },
+            {
+                "title": "SCSS"
+            },
+            {
+                "title": "Prime Ng"
+            }
+        ],
+        "img": "./assets/img/todoapp.png",
+        "github": "https://github.com/somesh0007/todo"
+    },
+    {
+        "title":"Airport Taxi Cab Service",
+        "paragraph":"My role in this website is to design the user interface (UI) using WordPress and ensure seamless functionality for all elements.",
+        "tools": [
+            {
+                "title":"Wordpress"
+            },
+            {
+                "title":"Elementor"
+            }
+        ],
+        "img":"./assets/img/goalbit-android_1.jpg",
+        "github": "https://famousdrive.com/",
+        "link": "yes"
+    },
+    {
+        "title":"Airport Taxi Cab Service",
+        "paragraph":"My role in this website is to design the user interface (UI) using WordPress and ensure seamless functionality for all elements.",
+        "tools": [
+            {
+                "title":"Wordpress"
+            },
+            {
+                "title":"Elemontor"
+            }
+        ],
+        "img":"./assets/img/goalbit-android.jpg",
+        "github": "https://airporttaxicabneedham.com/",
+        "link": "yes"
+    },
+    {
+        "title": "CryptoCurrency Price Checker",
+        "paragraph": "In this we can check the Crypto Currency live prices fetching from coingecko api.",
+        "tools": [
+            {
+                "title": "Angular 15"
+            },
+            {
+                "title": "Material UI"
+            },
+            {
+                "title": "SCSS"
+            },
+            {
+                "title": "ngx-graph"
+            },
+            {
+                "title": "Bootstrap"
+            }
+        ],
+        "img": "./assets/img/crypto.jpg",
+        "github": "https://bitcoin-price-check.netlify.app/coin-list",
+        "link": "yes"
+    }
+]
