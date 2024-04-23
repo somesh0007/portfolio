@@ -1,5 +1,5 @@
-@import "mixins";
-@import "variables";
+@import "/src/scss/mixins";
+@import "/src/scss/variables";
 
 header {
   position: fixed;
@@ -53,7 +53,7 @@ header {
       display: block;
       width: 0;
       height: 2px;
-      background: $gray21;
+      background: $white;
       transition: width 0.3s;
     }
 
