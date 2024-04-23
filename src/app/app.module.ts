@@ -9,6 +9,17 @@ import { HeaderComponent } from './header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillComponent } from './skill/skill.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AngularFireModule } from "@angular/fire/compat";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAXpYTMAOWkNMxdekfwewZ9fNeiBwCdOco",
+  authDomain: "portfolio-angular-new.firebaseapp.com",
+  projectId: "portfolio-angular-new",
+  storageBucket: "portfolio-angular-new.appspot.com",
+  messagingSenderId: "720099974599",
+  appId: "1:720099974599:web:5dba0907bf7d950d43cde2"
+};
 
 @NgModule({
   declarations: [
@@ -22,7 +33,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(firebaseConfig),
   ],
   providers: [],
   bootstrap: [AppComponent]
