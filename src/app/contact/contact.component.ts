@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, ElementRef, OnInit} from '@angular/core';
 import { scrollAnimation } from '../shared/animations';
 import { ScrollAnimationComponent } from '../shared/scroll-animation.component';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/compat/firestore';
+import emailjs from '@emailjs/browser';
 @Component({
   selector: 'contact',
   templateUrl: './contact.component.html',
@@ -16,12 +16,10 @@ export class ContactComponent extends ScrollAnimationComponent implements OnInit
   isSubmit:boolean =  true
   submitMessage:string =  ''
 
-  private myForm: AngularFirestoreCollection<any>
-  constructor(_el:ElementRef, cdRef: ChangeDetectorRef ,private formBuilder: FormBuilder, private firestore:AngularFirestore){
+  constructor(_el:ElementRef, cdRef: ChangeDetectorRef ,private formBuilder: FormBuilder){
     super(_el,cdRef);
   }
   ngOnInit() {
-    this.myForm = this.firestore.collection('enquiry');
 
     this.contactForm = this.formBuilder.group({
       name:[null, Validators.required],
@@ -32,18 +30,22 @@ export class ContactComponent extends ScrollAnimationComponent implements OnInit
 
   }
   sendMessage(val:any){
-    this.myForm.add(val)
-    .then(res =>{      
-      this.submitMessage = 'Submitted Successfully'
-    })
-    .catch(err =>{
-      console.log(err);
-      
-    })
+   console.log(val);
+     emailjs.init('hXgm1xftap6F6KfzO')
+    this.submitMessage = 'Submitted Successfully'
+    emailjs.send("service_cjrfey8","template_gzym8la",{
+      from_name: val.name,
+      to_name: 'Somesh',
+      message: val.message,
+      from_email:val.email,
+      from_phone: val.phone,
+      });
     this.isSubmit = true
     setTimeout(()=>{
       this.isSubmit = false
     }, 6000)
   }
-
+  send(){
+   
+  }
 }
