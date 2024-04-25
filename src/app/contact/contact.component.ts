@@ -30,7 +30,6 @@ export class ContactComponent extends ScrollAnimationComponent implements OnInit
 
   }
   sendMessage(val:any){
-   console.log(val);
      emailjs.init('hXgm1xftap6F6KfzO')
     this.submitMessage = 'Submitted Successfully'
     emailjs.send("service_cjrfey8","template_gzym8la",{
